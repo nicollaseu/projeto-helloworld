@@ -29,4 +29,10 @@ import org.springframework.web.bind.annotation.RestController;
                "Ética e Integridade (Ethics and Integrity)";
     }
 
+    @GetMapping("objsemana")
+        public String ObjSemana() {
+        return "Estudar Java POO\n" +
+               "Estudar MySQL\n" +
+               "Estudar SpringBoot";
+    }
 }
